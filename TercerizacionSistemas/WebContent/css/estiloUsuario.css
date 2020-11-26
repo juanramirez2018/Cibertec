@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+/* -------------- ESTILOS GENERALES ---------------*/
+body{
+	font-family:'Quicksand',sans-serif;
+}
+header {
+	width:100%;
+	height:100px;
+	background: #fff;
+}
+.container {
+	width:90%;
+}
+.logo {
+	width:200px;
+	height:100px;
+	margin: auto;
+}
+.logo img {
+	width:186px;
+}
+.nav_bar {
+	width:100%;
+	height:80px;
+	background: #0D4361;
+}
+.flex {
+	display:flex;
+	justify-content: flex-end;
+	align-items:center;
+}
+.text_user {
+	color:#fff;
+	font-weight:500;
+}
+.text_user span {
+	color:yellow;
+	margin-right:8px;
+}
+.text_user p {
+	display:inline-block;
+	margin-right:20px;
+}
+.img_user {
+	margin-right:20px;
+}
+.img_user img{
+	width:50px;
+	border-radius: 50%;
+}
+.icon_user {
+	color:#fff;
+	margin-right:60px;
+	font-size:20px
+}
+.side_bar {
+	max-width:300px;
+	height:calc(100vh - 180px);
+	background: #272451;
+}
+.side_bar h5 {
+	width:100%;
+	padding:16px;
+	background-color:#1f0f40;
+	color:#fff;
+	text-align:center;
+	font-size:18px
+}
+.side_bar a {
+	display:inline-block;
+	width:100%;
+	padding:16px;
+	color:#fff;
+	text-align:center;
+	font-size:15px;
+	border-left:10px solid #00ffff;
+}
+.side_bar a:hover {
+	cursor:pointer;
+	background-color:#565fc0;
+}
+
+.side_bar a .fas{
+	margin-right:10px;
+}
+
+
